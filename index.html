@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+ <head>
+   <meta charset="utf-8">
+   <meta name="description" content="My first webpage, with proper style">
+   <meta name="keywords" content="mths, ics20">
+   <meta name="author" content="Maryam Nona">
+   <meta name="viewport" content="width-device-width, initial-scale1.0">
+   <link rel="apple-touch-icon" sizes="180-180" href="./apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+   <link rel="manifest" href="site.webmanifest">
+   <link rel="stylesheet" href="./css/style.css">
+   <title>Volume of Pyramid</title>
+ </head>
+ <body>
+   <script src="./js/script.js"></script>
+   <h1>Area and Perimeter of a Trapezoid, with JS</h1>
+   <h2>Formulas</h2>
+   <h3>Volume= (l x w x h) / 3</h3>
+   <p>
+     Please enter integers for dimensions:
+     <form action="javascript:addAgeClicked()">
+       <label for="firstNumber">Length:</label>
+       <input type="number" step="any" id="length-of-pyramid" placeholder="e.g. 3.2">&nbsp;mm<br><br>
+       <label for="secondNumber">Width:</label>
+       <input type="number" step="any" id="width-of-pyramid" placeholder="e.g. 5.6">&nbsp;mm<br><br>
+       <label for="thirdNumber">Height:</label>
+       <input type="number" step="any" id="height-of-pyramid" placeholder="e.g. 6.8">&nbsp;mm<br><br>
+       <input type="submit" value="Calculate Volume">
+     </form>
+   </p>
+   <div id="volume"></div>
+ </body>
+</html>
